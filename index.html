@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Damage Calculator Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Damage Calculator Simulator</h1>
+
+    <div class="input-group">
+        <label>Base Damage</label>
+        <input type="number" id="baseDamage" value="100">
+    </div>
+
+    <div class="input-group">
+        <label>Crit Chance (%)</label>
+        <input type="number" id="critChance" value="25">
+    </div>
+
+    <div class="input-group">
+        <label>Crit Multiplier</label>
+        <input type="number" step="0.1" id="critMultiplier" value="2">
+    </div>
+
+    <div class="input-group">
+        <label>Armor / Resistance</label>
+        <input type="number" id="armor" value="50">
+    </div>
+
+    <div class="result-box">
+        <h2>Final Expected Damage:</h2>
+        <p id="result">0</p>
+    </div>
+
+    <footer>
+        Built by Krishnamohan Yagneswaran – Indie Game Developer
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
